@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^home$ index.php?page=home.php [L]
+RewriteRule ^dashboard$ index.php?page=dashboard.php [L]
+RewriteRule ^data$ index.php?page=data.php [L]
+Options All -Indexes
+</IfModule>
